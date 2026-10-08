@@ -52,7 +52,8 @@ FROM tblAmazon
 GROUP BY [ship-city]
 ORDER BY Total_Orders DESC;
 
-### Note: Sample clean dataset (tblAmazon_Cleaned_Sample.csv) is included in this repository. Full dataset available upon request.
+### Note: Sample clean dataset (tblAmazon_Cleaned_Sample.csv) is included in this repository,
+Full dataset available upon request.
 ```sql
 SELECT SUM(Amount) AS Total_Revenue 
 FROM tblAmazon;
